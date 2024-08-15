@@ -12,7 +12,7 @@ from tqdm import tqdm
 
 from model import AlexNet
 import torchmetrics
-
+# 
 def main():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("using {} device.".format(device))
